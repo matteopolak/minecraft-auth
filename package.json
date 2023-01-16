@@ -1,0 +1,36 @@
+{
+	"name": "@matteopolak/minecraft-auth",
+	"version": "0.1.0",
+	"description": "",
+	"main": "src/index.js",
+	"types": "build/index.d.ts",
+	"scripts": {
+		"build": "npx tsc --project tsconfig.json && npx tsc-alias -p tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/matteopolak/minecraft-auth.git"
+	},
+	"author": "Matthew Polak <contact@matteopolak.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/matteopolak/minecraft-auth/issues"
+	},
+	"homepage": "https://github.com/matteopolak/minecraft-auth#readme",
+	"dependencies": {
+		"@types/node": "^18.11.18",
+		"axios": "^1.2.2",
+		"https-proxy-agent": "^5.0.1",
+		"jose": "^4.11.2",
+		"smart-buffer": "^4.2.0"
+	},
+	"devDependencies": {
+		"@types/fluent-ffmpeg": "^2.1.20",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"eslint": "^8.28.0",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"tsc-alias": "^1.8.0",
+		"typescript": "^5.0.0-dev.20221130"
+	}
+}

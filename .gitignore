@@ -1,0 +1,7 @@
+node_modules
+.env
+*.db
+*.js
+other
+readme_assets/logo.xcf
+build
