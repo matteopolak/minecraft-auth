@@ -44,8 +44,6 @@ export class MicrosoftAuth {
 			},
 		});
 
-		console.log(response.data);
-
 		return {
 			token: response.data.access_token,
 			expiresAt: new Date(Date.now() + response.data.expires_in * 1_000),
